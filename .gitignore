@@ -1,0 +1,13 @@
+# Caches Python
+__pycache__/
+*.pyc
+
+# Données générées par le programme
+GADMAPS/data_output/*
+!GADMAPS/data_output/.gitkeep
+Partie IA/results/
+Partie IA/models/
+ProjetUML.zip
+
+# Ancienne copie non maintenue
+main/
