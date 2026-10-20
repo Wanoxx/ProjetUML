@@ -13,3 +13,12 @@ pyparsing==3.3.2
 pytest==9.0.2
 python-dateutil==2.9.0.post0
 six==1.17.0
+
+# Interface graphique et visualisation
+PyQt6
+pyqtgraph
+opencv-python
+
+# Partie IA (autoencodeur)
+tensorflow
+keras

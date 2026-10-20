@@ -10,7 +10,7 @@ Le projet suit une architecture claire séparant la logique métier, l'interface
 * `core/` : Contient principalement les classes abstraites fondamentales (`AbstractComponent`, `AbstractObservable`, `MessageBus`, `Sensor`, etc...).
 * `test_models/ferrari/` : Implémentation concrète d'un véhicule complet avec ses sous-systèmes (Moteur V12, Boîte DCT, Freins Carbone, etc...) et son interface (`FerrariGUI.py`).
 * `test_technique/` : Suite de tests automatisés (unitaires, intégration, robustesse).
-* `data_outputs/` : Dossier de destination pour l'export des données de simulation (CSV).
+* `data_output/` : Dossier de destination pour l'export des données de simulation (CSV).
 * `controller.py` et `view.py` : Contrôleurs et vues de l'interface principale PyQt6.
 * `Simulator.py` et `ModelBuilder.py` : coeur du moteur de simulation et de validation des imports.
 
@@ -53,4 +53,4 @@ python main.py
 ```
 
 -- Déroulement d'une simulation
-Une fois dans le logiciel vous pouvez importer le dossier Ferrari pour tester le logiciel avec un modèle métier complet, vous pouvez également tester les anomalies avec anomalies_ferrari_example.csv.
+Une fois dans le logiciel vous pouvez importer le dossier Ferrari pour tester le logiciel avec un modèle métier complet, vous pouvez également tester les anomalies avec anomalies_ferrari_realistic_10000.csv.
